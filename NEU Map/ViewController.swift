@@ -35,6 +35,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         self.myMapView.setRegion(theRegion, animated: true)
         
+        var neuAnotation = MKPointAnnotation()
+        neuAnotation.coordinate = neuLocation
+        neuAnotation.title = "ม.ภาค"
+        neuAnotation.subtitle = "จังหวัต ขอนแก่น"
+        self.myMapView.addAnnotation(neuAnotation)
         
         
         

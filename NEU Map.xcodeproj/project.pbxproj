@@ -14,6 +14,7 @@
 		0AE7D96D1D1B952100B6D629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE7D96B1D1B952100B6D629 /* LaunchScreen.storyboard */; };
 		0AE7D9781D1B952100B6D629 /* NEU_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7D9771D1B952100B6D629 /* NEU_MapTests.swift */; };
 		0AE7D9831D1B952100B6D629 /* NEU_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7D9821D1B952100B6D629 /* NEU_MapUITests.swift */; };
+		0AE7D9911D1B963300B6D629 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE7D9901D1B963300B6D629 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0AE7D97E1D1B952100B6D629 /* NEU MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NEU MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE7D9821D1B952100B6D629 /* NEU_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEU_MapUITests.swift; sourceTree = "<group>"; };
 		0AE7D9841D1B952100B6D629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE7D9901D1B963300B6D629 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE7D9911D1B963300B6D629 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		0AE7D9561D1B952100B6D629 = {
 			isa = PBXGroup;
 			children = (
+				0AE7D9901D1B963300B6D629 /* MapKit.framework */,
 				0AE7D9611D1B952100B6D629 /* NEU Map */,
 				0AE7D9761D1B952100B6D629 /* NEU MapTests */,
 				0AE7D9811D1B952100B6D629 /* NEU MapUITests */,
